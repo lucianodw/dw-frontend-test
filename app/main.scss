@@ -1,0 +1,14 @@
+@import '../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+input, .input {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  border: 1px solid red;
+}
+
+.required {
+  color: red;
+}

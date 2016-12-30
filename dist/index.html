@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DW Developer Test</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link href="css/main.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <h1>Front End Developers </h1>
+
+    <form action="POST" class="container order-form">
+
+      <div class="col-xs-12 input">
+        <label for="addressType"><span class="required">*</span> Is this Address?</label>
+        <div>
+          <label class="radio-inline">
+            <input type="radio" class="address-type" name="addressType" id="addressType" value="home" checked> Home
+          </label>
+          <label class="radio-inline">
+            <input type="radio" class="address-type" name="addressType" id="addressType" value="business"> Business
+          </label>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <label for="email"><span class="required">*</span> Email Address</label>
+        <input type="text" class="email form-control" name="email" id="email" />
+      </div>
+      <div class="col-xs-12">
+        <label for="confirm-email"><span class="required">*</span> Confirm Email Address</label>
+        <input type="text" class="confirm-email form-control" name="confirm-email" id="confirm-email" />
+      </div>
+      <div class="col-xs-6">
+        <label for="firstName"><span class="required">*</span> First name</label>
+        <input type="text" class="form-control" name="firstName" id="firstName" />
+      </div>
+      <div class="col-xs-6">
+        <label for="lastName"><span class="required">*</span> Last name</label>
+        <input type="text" class="form-control" name="lastName" id="lastName" />
+      </div>
+      <div class="col-xs-12 company-name hide">
+        <label for="company"><span class="required">*</span> Company Name</label>
+        <input type="text" class="form-control" name="company" id="company" />
+      </div>
+      <div class="col-xs-12">
+        <label for="address"><span class="required">*</span> Address</label>
+        <input type="text" class="form-control" name="address" id="address" />
+      </div>
+      <div class="col-xs-6">
+        <label for="zip"><span class="required">*</span> Zip</label>
+        <input type="text" class="form-control" name="zip" id="zip" />
+      </div>
+      <div class="col-xs-6">
+        <div>
+          <em>Enter ZIP to populate City and State</em>
+        </div>
+
+      </div>
+      <div class="col-xs-12">
+        <label for="phone"><span class="required">*</span> Phone</label>
+        <input type="text" class="form-control" name="phone" id="phone" />
+      </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="js/project.min.js"></script>
+</body>
+</html>
